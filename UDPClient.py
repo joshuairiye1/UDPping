@@ -16,7 +16,7 @@ while True:
     print("----------------------------\n")
 
     mysocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # Create a UDP socket for the client
-    server_address = ('8.8.8.8', 443) # Set IP Address and Port Number of Socket 
+    server_address = ('169.254.154.231', 1234) # Set IP Address and Port Number of Socket 
     mysocket.settimeout(2) # Sets a timeout value 2 seconds
 
     try: # Infinite loop to contiuously send messages to the server
